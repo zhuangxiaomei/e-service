@@ -1,0 +1,64 @@
+/*联系我们*/
+.content{position: relative;}
+.map{ position: absolute; width: 90%; margin: 5% 5%;}
+.address{ position: absolute; margin: 42% 5% 0 5%; width: 90%; background:rgba(255,255,255,0.5) }
+.address .xinxitupian{ position: absolute;margin: -22% 0 0 72%;}
+
+.address ul{ margin:20px 0 0  5%;  padding: 0 ;}
+.address ul li{list-style-type: none;}
+.address ul li p{color: #272636; font-size: 22px; font-weight: bold;}
+.address ul li span{ font-size: 16px;}
+.address .title img{ width: 400px; }
+.address .title h1{ font-size: 28px; }
+.address .title p,.address .title span{ color: #000;}
+.content{height:auto; width: 100%;}
+
+@media (min-width: 105rem) and (max-width: 125rem) {
+    .content{height:81.25rem; width: 100%;}
+    .address .xinxitupian{ position: absolute;margin: -17% 0 0 78%;}
+
+}
+@media (min-width: 85.375rem) and (max-width: 105rem) {
+    .content{height:72rem; width: 100%;}
+    .address .xinxitupian{ position: absolute;margin: -17% 0 0 78%;}
+
+}
+@media (min-width: 80rem) and (max-width: 85.375rem) {
+    .content{height:66.625rem; width: 100%;}
+    .address .xinxitupian{ position: absolute;margin: -17% 0 0 78%;}
+
+}
+@media (min-width: 65rem) and (max-width: 80rem) {
+    .content{ height:800px;}
+    .address .title img{ width: 300px ;}
+    .address .title h1{ font-size: 22px; }
+    .address .title p,.address .title span{ font-size: 14px;}
+    .address ul li p{color: #272636; font-size: 18px; font-weight: bold;}
+    .address ul li span{ font-size: 14px;}
+    .address .title img{ width: 400px; }
+    .address .title h1{ font-size: 28px; }
+}
+
+
+@media (min-width: 36rem) and (max-width: 65rem) {
+    .content{ height:800px;}
+    .address .title img{ width: 300px ;}
+    .address .title h1{ font-size: 22px; }
+    .address .title p,.address .title span{ font-size: 14px;}
+    .address ul li p{color: #272636; font-size: 18px; font-weight: bold;}
+    .address ul li span{ font-size: 14px;}
+    .address .title img{ width: 400px; }
+    .address .title h1{ font-size: 28px; }
+}
+
+@media (max-width: 36rem) {
+    .map{ position: absolute; width: 90%; height: 200px;}
+    .address{margin: 52% 5% 0 5%; }
+    .content{ height:650px;}
+    .address .title h1{ font-size: 22px; }
+    .address .title p,.address .title span{ font-size: 14px;}
+    .address ul li p{color: #272636; font-size: 18px; font-weight: bold;}
+    .address ul li span{ font-size: 14px;}
+    .address .title img{ width: 400px; }
+    .address .title h1{ font-size: 28px; }
+}
